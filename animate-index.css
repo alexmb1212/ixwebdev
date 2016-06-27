@@ -1,0 +1,54 @@
+h1.site__title.mega{
+    color:#f35626;
+    font-size: 6rem;
+    line-height:1;
+}
+#animationSandBox{
+    display:block
+    position:relative;
+    color: #3d464d;
+    margin-bottom: 1.5rem;
+    letter-spacing:-.05em;
+    font: "Roboto", Verdana, sans-serif;
+    font-weight:lighter;
+}
+*{
+    text-align:center;
+    margin-top: 100px;
+}
+span.beta.subhead{
+    color:#7b8993;
+    margin-bottom: .15rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#bounce{
+    padding: .75rem;
+    margin: .375rem;
+    background-color: transparent;
+    border: 1px solid #c0c8c9;
+    border-radius: 14px;
+   
+}
+#animate{
+    border: 2px solid #f35626;
+    line-height: 1.375;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 700;
+    color: #f35626;
+    cursor: pointer;
+    border-radius: 14px;
+
+}
+hr {
+    border: none;
+    margin-top: -1px;
+    height: 1px;
+    background-color: #c0c8c9;
+    background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);# ixwebdev

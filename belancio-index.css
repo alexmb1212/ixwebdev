@@ -1,0 +1,40 @@
+body{
+	with:1050;
+}
+*{
+	background-color:#433C34;
+}
+ul li{
+	list-style-type: none;
+	display:inline;
+	float:right;
+	margin-top: 50px;
+}
+li a{
+	text-decoration: none;
+	color:white;
+	padding:25px;
+}
+#admission{
+	text-align:center;
+}
+#after{
+	margin-top: 50px;
+	float:right;
+	height:40%;
+	width:40%;
+	margin-right: 135px;
+}
+#big{
+	height:650%;
+	width: 650%;
+	clear:both;
+
+}
+div img{
+	height:15%;
+	width:15%;
+}
+#footie tr td{
+	background-color: white;
+}

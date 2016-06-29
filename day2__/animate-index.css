@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+}
+.big{
+    font-family: Helvetica;
+    font-size: 90px;
+    color: #f35626;
+    font-weight: 100;
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
+.sub{
+    color:gray;
+    font-weight: lighter;
+
+}
+.buttons{
+    margin:50px;
+}
+.btn-1{
+    border:solid gray 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: left;
+    padding:16px;
+    margin:5px;
+    color:black;
+    padding-right:110px;
+}
+
+.btn-2{
+    border:solid #f35626 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    color:#f35626;
+    padding:16px;
+    margin:5px;
+}
+.pcolor{
+    color:gray;
+    padding-top: 50px
+}
+
+.ps{
+    padding-top: 50px;
+    color:gray;
+}
+hr{
+    width:40%;
+    margin-top:50px;
+}
+.dan{
+    color:gray;
+}

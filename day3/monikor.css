@@ -1,0 +1,117 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+#navLeft{
+	float:left;
+	text-align: left;
+	width:40%;
+}
+#navleft h2{
+	padding:18px, 15px, 18px, 0px;
+}
+#navRight{
+	float:right;
+	margin-right: -15px;
+	height:100%;
+	margin-top: 15px;
+	width:40%;
+}
+
+.long{
+	background: black;
+	color:white;
+	text-align: center;
+}
+.container{
+	width:80%;
+	margin:0px auto;
+}
+ul{
+	list-style-type: none;
+	margin:auto;
+}
+ul li{
+	display:inline-block;
+	padding:10px;
+}
+li a{
+	color:white;
+	text-decoration: none;
+}
+#infoleft{
+	float:left;
+	width:40%;
+	display:inline-block;
+	text-align: left;
+}
+#inforight1{
+	float:right;
+	width:20%;
+	display:inline;
+}
+#inforight2{
+	float:right;
+	width:20%;
+	display:inline;
+}
+#dos{
+	padding-top:20px;
+	margin-top: 20px;
+}
+p > a{
+	text-decoration: none;
+	color:white;
+}
+p>a:hover{
+	color:red;
+}
+li>a:hover{
+	color:red;
+}
+.left{
+	float:left;
+}
+.right{
+	float: right;
+}
+.twothird{
+	width:66%;
+}
+.onethird{
+	width:33%;
+}
+h2{
+	margin-bottom:100px;
+}
+.one{
+	margin-bottom: 5px;
+}
+.two{
+	margin-top: 5px;
+}
+.inline{
+	display:inline;
+
+}
+.onea{
+	padding-right: 5px;
+}
+.oneb{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.onec{
+	padding-left: 3px;
+}
+.lastest{
+}

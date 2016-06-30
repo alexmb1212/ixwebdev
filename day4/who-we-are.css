@@ -1,0 +1,32 @@
+*{
+	text-align: center;
+}
+.nav{
+	margin-top: 20px;
+}
+.jumbotron{
+	margin-top: 20px;
+	border:1px solid black;
+	height:500px;
+	background-image:url("http://www.aroundaboutcars.com/images/content/images/Cape%20Town%20Overview.jpg");
+}
+.circle{
+	border-radius:75%;
+	width:150px;
+	height:150px;
+}
+.fun{
+	margin:auto;
+	width:100%;
+}
+.circlesmall{
+	border-radius:75%;
+	width:110px;
+	height:110px;
+}
+.marg{
+	padding-top:30px;
+}
+.margs{
+	padding-top: 15px;
+}

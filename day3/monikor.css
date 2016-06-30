@@ -26,6 +26,9 @@
 	margin-top: 15px;
 	width:40%;
 }
+body{
+	background-color:black;
+}
 
 .long{
 	background: black;
@@ -104,6 +107,7 @@ h2{
 
 }
 .onea{
+	padding-top: 2px;
 	padding-right: 5px;
 }
 .oneb{
@@ -115,3 +119,12 @@ h2{
 }
 .lastest{
 }
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+.fade:hover {
+      opacity: 0.5;
+      }

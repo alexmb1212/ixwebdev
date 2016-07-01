@@ -10,22 +10,22 @@
      height: 0;
      }
 .clearfix { display: inline-block; }
-/* start commented backslash hack \*/
+/* start commented backslash hack \
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack */
+/* close commented backslash hack */*/
 body{
 	color:#FFFFFF;
 }
 #pops{
-	background:#FFFFFF;
+	background:white;
 	color:black;
 	text-align: center;
 	width: 100%;
 }
 .container{
 	margin:0px auto;
-	/*width:100%;*/
+	width:80%;
 }
 .left{
 	float:left;
@@ -38,17 +38,17 @@ body{
 	width:25%;
 }
 .half{
-	width:50%;
+	width:75%;
 }
 ul li{
 	display:inline-block;
 	list-style-type: none;
-	padding-right:20px;
-	padding-left:20px;
+	padding-right:10px;
+	padding-left:10px;
 }
 /*ul{
 	display:inline-block;
-}*/
+}
 #one{
 	width:110px;
 }
@@ -58,13 +58,4 @@ li a{
 	font-size: 11px;
 	font-weight: lighter;
 	font-family: verdana;
-}
-.quart ul img{
-	width:15px;
-}
-.uno{
-	text-align: left;
-}
-.dos{
-	text-align: right;
-}
+}*/

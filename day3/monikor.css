@@ -16,6 +16,9 @@
 	text-align: left;
 	width:40%;
 }
+nav{
+	background-color: white;
+}
 #navleft h2{
 	padding:18px, 15px, 18px, 0px;
 }
@@ -35,9 +38,6 @@ body{
 	color:white;
 	text-align: center;
 }
-.container{
-	width:80%;
-	margin:0px auto;
 }
 ul{
 	list-style-type: none;

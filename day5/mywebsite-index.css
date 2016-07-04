@@ -1,0 +1,156 @@
+*{
+	text-align: center;
+	/*background-color:#233651;*/
+}
+
+.asdf {
+	max-width: 800px;
+	margin: 0px auto;
+}
+.color{
+	background-color:#233651;
+}
+
+.asdf img {
+	width: 100%;
+	margin-top: 45px;
+	z-index: 0;
+
+}
+
+.swag {
+	z-index:10000;
+}
+
+.swag:hover::before{
+	content:"";
+	display: block;
+	/*height:2px;*/
+	background-color:#233651;
+	border: black 1px solid;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+}
+
+*{
+	box-sizing:border-box;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */*/
+body{
+	color:#FFFFFF;
+}
+#pops{
+	background:white;
+	color:black;
+	text-align: center;
+	position:fixed;
+	z-index: 1000;
+	/*border-bottom: 1px solid #233651;*/
+	width:100%;
+	height:75px;
+}
+.navy{
+	margin:0px auto;
+	width:80%;
+	padding-right: 0px;
+}
+.left{
+	float:right;
+}
+.nav{
+	padding:15px, 0px, 15px, 15px;
+}
+.quart{
+	width:25%;
+	padding-right: 10px;
+}
+.half{
+	width:60%;
+	margin-top: 13px;
+}
+ul li{
+	display:inline-block;
+	list-style-type: none;
+	padding-left:10px;
+
+}
+
+.media{
+	position: relative;
+	padding-top: 75px;
+	text-align: center;
+	height:300px;
+}
+:hover{
+	bottom-border:#233651;
+}
+ul{
+	margin-top: 13px;
+}
+.uno{
+	margin-right: 140px;
+}
+.single{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 20px;
+	height:150px;
+}
+h2{
+	color:#233651;
+}
+.single iframe{
+	display:inline-block;
+	text-align: center;
+	margin:0 auto;
+	border: 0; width: 500px; height: 42px;
+}
+.page-footer{
+	position:bottom;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	height:50px;
+	text-align: center;
+}
+.circlefoot{
+	position:relative;
+	height:50px;
+	width:50px;
+	margin-left:25px;
+	margin-right:25px;
+	border-radius:50%;
+	display:inline-block;
+}
+.facebook{
+	background-image: url(http://i1381.photobucket.com/albums/ah213/Alexander_Lev/stuff_zpsjca4ivja.png);
+	background-size: cover;
+}
+.youtube{
+	background-image: url(http://i1381.photobucket.com/albums/ah213/Alexander_Lev/YouTube_zpsj3wcjnra.png);
+	background-size: cover;
+}
+.instagram{
+	background-image: url(http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Instagram_zpsv1alm5zt.png);
+	background-size: cover;
+}
+.twitter{
+	background-image: url(http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Twitter_zpsrqfajwws.png);
+	background-size:cover;
+}

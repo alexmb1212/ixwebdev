@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex's Grocery List App</title>
+  </head>
+  <body ng-app="groceryListApp">
+    <h1>Alexander's Grocery List</h1>
+    <div ng-controller="GroceryList">
+      <div>
+        <input ng-model="itemName"> Food Item
+      </div> 
+      <div>
+        <input ng-model="quantity"> Quantity
+      </div>
+      <div>
+        <button ng-click="addItem()">Add to list</button>
+      </div>
+      <input placeholder="Search" type="text" ng-model="searchBar">
+
+        <ol>
+          <li ng-repeat="item in items| filter:searchBar track by $index">
+            <button ng-click="add(item)"> + </button>
+            <button ng-click="subtract(item)"> - </button>
+            {{item.quantity}}
+            {{item.name}}
+          </li>
+        </ol>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js">
+    </script>
+    <script src="day8night.js"></script>
+  </body>
+</html>

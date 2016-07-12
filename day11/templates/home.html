@@ -1,0 +1,10 @@
+<div controller="SearchCtrl">
+<h3>The Greatest and Most Epic Movie Database Ever</h3>
+<ol>
+	<input ng-model="movieSearch">
+	<button ng-click="Search()">Search</button>
+	<li ng-repeat="m in moviesArray track by $index">
+		<a href="#/movie/{{m.imdbID}}">{{m.Title}}</a>
+	</li>
+</ol>
+</div>

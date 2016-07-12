@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row stuff">
+		<div class="col-md-6">
+			<img src="{{movie.Poster}}" />
+			<h2><span class="info">Title</span>: {{movie.Title}}</h2>
+			<h3><span class="info">Director</span>: {{movie.Director}}</h3>
+			<h4><span class="info">Rated</span>: {{movie.Rated}}</h4>
+			<h4><span class="info">Plot</span>: {{movie.Plot}}</h4>
+		</div>
+		<div class="col-md-6">
+			<ul>
+				<li ng-repeat="g in movieGif track by $index">
+					<img src="{{g.images.original.url}}" />
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

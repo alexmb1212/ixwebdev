@@ -1,0 +1,22 @@
+<div class ="row">
+	<div class = "col-md-6">
+		<ol class="props">
+			<li ng-repeat="p in props">
+				<h6>{{p.receiver.first_name}} {{p.receiver.last_name}}</h6>
+				<p>{{p.text}}</p>
+			</li>
+		</ol>
+	</div>
+	<div class = "col-md-6">
+		<div>
+			<p ng-show="errorMessage" class = "aler alert-danger">{{errorMessage}}</p>
+		</div>
+		<div ng-class="{
+		'isDisabled': isSending}">
+			<input ng-model="newPropsValue" class="inputBox"/>
+		</div>
+		<select ng-options = "b.id as b.first_name+' '+b.last_name for b in brus" ng-model = "selectedBru">
+		</select>
+		<button ng-click = "sendProps()">Send Props</button>
+	</div>
+</div>

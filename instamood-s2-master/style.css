@@ -1,0 +1,26 @@
+*{
+/*	margin:0px auto;*/
+	text-align: center;
+	background-color: #CAE1FF;
+	max-width: 922px;
+	margin: 0px auto;
+}
+ul li{
+	list-style: none;
+	border:solid #233651 5px;
+	margin-top: 20px;
+	background-color: white;
+	padding-top: 20px;
+}
+ul li img{
+	border:solid #233651 2px;;
+}
+#caption{
+	color:#233651;
+	font-family: helvetica;
+	font-size: 22px;
+	max-width: 650px;
+	background-color: white;
+	margin-top:5px;
+	margin-bottom: 15px;
+}
